@@ -1,0 +1,6 @@
+{"platform": "xhs", "post_id": "demo_xhs_001", "comment_id": "demo_c_001", "parent_comment_id": "", "content": "面试官追问了 action chunk 长度和 RTC 的重叠策略，建议准备具体数字。", "created_at": "2026-01-01"}
+{"platform": "xhs", "post_id": "demo_xhs_001", "comment_id": "demo_c_002", "parent_comment_id": "", "content": "蹲", "created_at": "2026-01-01"}
+{"platform": "xhs", "post_id": "demo_xhs_001", "comment_id": "demo_c_003", "parent_comment_id": "demo_c_001", "content": "[笑哭]", "created_at": "2026-01-01"}
+{"platform": "xhs", "post_id": "demo_xhs_002", "comment_id": "demo_c_004", "parent_comment_id": "", "content": "世界模型 rollout 的延迟是关键，实际控制环只有几十毫秒预算。", "created_at": "2026-01-02"}
+{"platform": "xhs", "post_id": "demo_xhs_002", "comment_id": "demo_c_005", "parent_comment_id": "", "content": "谢谢分享", "created_at": "2026-01-02"}
+{"platform": "zhihu", "post_id": "demo_zhihu_001", "content_type": "answer", "comment_id": "demo_c_006", "parent_comment_id": "", "content": "数据闭环里失败数据的配比确实容易被追问，可以准备一个训练侧消融和真机评测对照。", "created_at": "2026-01-03"}

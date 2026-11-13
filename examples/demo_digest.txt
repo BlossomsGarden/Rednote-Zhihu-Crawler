@@ -1,0 +1,27 @@
+
+===== [6] 示例：世界模型实习面试
+URL: https://example.com/explore/demo_xhs_002
+platform=xhs post_id=demo_xhs_002 keyword=世界模型 面试 comments=2
+BODY:
+合成演示数据。问题包括世界模型与 model-based RL 的区别、latent 与 pixel 表征的取舍、长程 rollout 漂移怎么评估、训练不稳定如何排查，以及世界模型在机器人里更适合做规划、评估还是数据生成。面试官还问了一个工程问题：如果一次想象要十几秒，怎么放进控制环。
+COMMENTS:
+  (2) cid=demo_c_004 parent=-: 世界模型 rollout 的延迟是关键，实际控制环只有几十毫秒预算。
+
+===== [4] 示例：VLA 模型岗一面记录
+URL: https://example.com/explore/demo_xhs_001
+platform=xhs post_id=demo_xhs_001 keyword=VLA 面经 comments=3
+BODY:
+这是一条合成的演示数据，不对应任何真实帖子。一面约 50 分钟：先用 15 分钟讲项目，面试官追问了数据量、采集频率、action chunk 长度和评测口径；随后问 π0.5 的 Action Expert、state 离散化、Flow Matching 与 Diffusion Policy 的区别、RTC 在训练期和推理期的不同实现。最后手撕多头注意力，并让说明缩放因子和 KV cache 的作用。
+COMMENTS:
+  (1) cid=demo_c_001 parent=-: 面试官追问了 action chunk 长度和 RTC 的重叠策略，建议准备具体数字。
+
+===== [3] 示例：具身智能算法岗面试复盘
+URL: https://example.com/question/demo_q_001/answer/demo_zhihu_001
+platform=zhihu post_id=demo_zhihu_001 keyword=具身智能 面经 comments=1
+BODY:
+合成演示数据。面试重点在数据闭环与真机部署：数据量、采集频率、失败数据怎么用、DAgger 回流、如何证明提升来自训练而不是评测设置。还问了场景多样性与数据配比，以及如果离线指标涨了但真机成功率不涨，应该怎么排查。最后还让对比一下开环和闭环评测的差别，以及如果训练集和验证集来自同一场景，指标会虚高多少。
+COMMENTS:
+  (3) cid=demo_c_006 parent=-: 数据闭环里失败数据的配比确实容易被追问，可以准备一个训练侧消融和真机评测对照。
+
+
+### posts shown 3 / 3
